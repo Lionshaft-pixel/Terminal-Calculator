@@ -23,9 +23,9 @@ while True:
         else:
             total = "Please enter a valid operator!"
 
-        print(f"Total = {total}")
+        print(total)
 
     except ValueError:
         print("Please enter a valid number!")
     except Exception as e:
-        print(f"Something went wrong! Please try again later! {e}")
+        print(f"Something went wrong. Error: {e}")
